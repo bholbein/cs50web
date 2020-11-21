@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    font-family: arial, sans-serif;
+    color: #000000de; 
+    font-size: 14px;
+}
+
+.header {
+   display: flex;
+   line-height: 20px;
+}
+
+
+.header .left {
+    flex: 50%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.header .right {
+    flex: 50%;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.header ul {
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 10px;
+    margin: 0;
+}
+
+.header ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.header a, a:hover, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #413f3fde
+}
+
+
+.container {
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+    display: block;
+    text-align: center;
+}
+
+.logo img {
+    margin: auto;
+    display: block;
+}
+
+.container form {
+    margin: 50px auto 0 auto;
+    display: inline-block;
+
+}
+
+.button-group {
+    margin-top: 20px;
+    display: block;
+}
+
+.search > input[type=text] {
+    width: 500px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('/img/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    border-radius: 30px;
+}
+
+.button {
+    background-color: #eeeeee; /* Green */
+    border: 1px solid #eeeeee;
+    color: black;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    border: 1px solid #413f3fde;
+}
+
+.advanced {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: nowrap;
+}
+
+.advanced label {
+    display:inline-block;
+    margin-top: 20px;
+    width:170px;
+}
+
+.advanced .input-box > input[type=text] {
+    width: 400px;
+    height: 30px;
+    
+}
+
+.container-left {
+    margin-left: 35px;
+    color: #333;
+    font-size:13px;
+}
+
+.container-left h3 {
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.right-description {
+    display: inline;
+    margin-left: 10px;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+.right-description p {
+    line-height: 35px;
+}
+
+.courier {
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.btn-advanced {
+    background-color: #4d90fe;
+    color: white;
+    background-image: -webkit-linear-gradient(top, #4d90fe, #4784ed);
+    line-height: 11px;
+    height: 30px;
+    width: 123px;   
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 11px;
+    display: inline;
+    margin-left: 460px;
+    margin-top: 20px;
+}
+
+ .btn-advanced:hover {
+    background-image: -webkit-linear-gradient(top,  #4d90fe, #3a6abd);
+}
+
+.line {
+    border-bottom: 1px solid #cccbcbde;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1080px) {
+    .right-description {
+        display:none;
+    }
+
+}
